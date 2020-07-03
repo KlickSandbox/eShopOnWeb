@@ -38,8 +38,8 @@ steps:
     ConnectionType: 'AzureRM'
     azureSubscription: 'Cloud Sandbox(34543192-1695-494a-a854-b8e1d518209b)'
     appType: 'webApp'
-    WebAppName: 'klick-test-web-app'
+    WebAppName: 'klick-test-app-20200703'
     deployToSlotOrASE: true
-    ResourceGroupName: 'CloudSandbox'
+    ResourceGroupName: 'klick-test-rg'
     SlotName: 'production'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
